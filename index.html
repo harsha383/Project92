@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Math Quiz Game!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+
+<script src="quiz_game_login.js"></script>
+    </head>
+
+    <body style="background-image: url(Background.jfif);">
+           <center>
+              <div class="head">
+                  <h1 style="font-family: fantasy;">MATHS QUIZ GAME</h1>
+            </div>
+            <h2 style="font-family: sans-serif; font-weight: bolder; color: darkslateblue; text-decoration-style: double; text-decoration-line: underline; text-decoration-color: deeppink;">...Test Your Maths...</h2>
+            <br><br>
+                <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+                    <h3>Player 1</h3>
+                    <label>You name is :</label>
+                    <br>
+                    <img src="imageedit_2_7555931743.png" style="height: 50px;">
+                    <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name" style="width: 300px; height: 30px;">
+                    <br>
+                    <b style="color: black; font-size: 20px;" class="text-center">NOTE : </b>
+                    <h4 class="text text-danger text-justify">
+                        <br> ► Please Enter PLAYER 2 Name
+                        <br> ► You can't change your name after LOGIN
+                        <br> ► Your name won't be AUTOSHAVED
+                    </h4>
+                    <br>
+                </div>
+                <br>
+                <br>      
+                    <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+                    <h3>Player 2</h3>
+                    <label>Your name is :</label>
+                    <br>
+                    <img src="imageedit_2_7555931743.png" style="height: 50px;">
+                    <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name" style="width: 300px; height: 30px;">
+                    <br>
+                    <b style="color: black; font-size: 20px;" class="text-center">NOTE : </b>
+                    <h4 class="text text-danger text-justify">
+                        <br> ► Please Enter PLAYER 2 Name
+                        <br> ► You can't change your name after LOGIN
+                        <br> ► Your name won't be AUTOSHAVED
+                    </h4>
+                    <br>
+                    </div>
+                    <br><br>
+                    <br><br><br><br>
+                    <button style="width: 30%; font-size: larger;" class="btn btn-success" onclick="adduser();">Login</button>
+                    <br><br><br><br> 
+            </center>
+    </body>
+</html>
